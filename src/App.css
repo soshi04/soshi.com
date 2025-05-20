@@ -1,0 +1,38 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+#root {
+  text-align: center;
+}
+
+.app-background-light {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url('/src/assets/light.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.5s ease;
+}
+
+.app-background-dark {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url('/src/assets/dark.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.5s ease;
+}
+
+.app-background-cream {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url('/src/assets/cream.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.5s ease;
+}
