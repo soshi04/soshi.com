@@ -1,4 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #a33f3f;
+  color: white;
+}
 
+/* Flex container for links and button */
+.nav-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* spacing between links and button */
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem; /* spacing between links */
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #444;
+  text-decoration: none;
+}
+
+/* Optional: style the toggle button to match the theme */
+.navbar button {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.navbar button:hover {
+  background-color: #444;
+}
+
+/* 
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -21,4 +69,4 @@
   
   .nav-links a:hover {
     text-decoration: underline;
-  }
+  } */
