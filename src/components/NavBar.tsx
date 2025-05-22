@@ -7,15 +7,17 @@ type NavBarProps = {
 }
 
 function NavBar({ currmode, toggleMode }: NavBarProps){
-    return(
-
-        <div>
-            <span>this is the navbar</span>
-            <button onClick={toggleMode}>
+    return (
+        <nav className="navbar">
+          <div className="nav-links">
+            <Link to="/">Home</Link>
+            <Link to="/about">About Me</Link>
+          </div>
+          <button onClick={toggleMode}>
             Mode: {currmode === 0 ? "Dark" : currmode === 1 ? "Light" : "Cream"}
-            </button>
-        </div>
-    )
+          </button>
+        </nav>
+      );
 }
 
 export default NavBar
