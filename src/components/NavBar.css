@@ -11,10 +11,15 @@
 .nav-content {
   display: flex;
   align-items: center;
-  gap: 2rem; /* spacing between links and button */
+  gap: 10rem; /* spacing between links and button */
 }
 
 .nav-links {
+  display: flex;
+  gap: 1.5rem; /* spacing between links */
+}
+
+.nav-buttons {
   display: flex;
   gap: 1.5rem; /* spacing between links */
 }

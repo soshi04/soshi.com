@@ -2,13 +2,13 @@ import React from "react";
 import { useState } from "react";
 
 
-function About() {
+function Projects() {
     
     return(
         <div>
-            <h1>About me Page</h1>
+            <h1>Projects Page</h1>
         </div>
 
     )}
 
-export default About
+export default Projects

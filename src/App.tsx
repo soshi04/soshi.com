@@ -4,6 +4,7 @@ import './App.css'
 import About from './pages/About.tsx'
 import NavBar from './components/NavBar.tsx'
 import MainPage from './pages/MainPage.tsx'
+import Projects from './pages/Projects.tsx'
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path='/' element={<MainPage/>}/>
         <Route path='/About' element={<About/>}/>
+        <Route path='/Projects' element={<Projects/>}/>
       </Routes>
     </div>
   )

@@ -21,11 +21,14 @@ const CountHandle = () => {
         <div className="nav-links">
           <Link to="/">Home</Link>
           <Link to="/about">About Me</Link>
+          <Link to="/projects">Projects</Link>
         </div>
+        <div className="nav-buttons">
         <button onClick={toggleMode}>
-          {currmode === 0 ? "Dark" : currmode === 1 ? "Light" : "Cream"}
+          {currmode === 0 ? "Light" : currmode === 1 ? "Cream" : "Dark"}
         </button>
         <button onClick={CountHandle}>Click me {count}</button>
+        </div>
       </div>
     </nav>
   );
