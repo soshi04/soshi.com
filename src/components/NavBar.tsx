@@ -9,12 +9,6 @@ type NavBarProps = {
 
 
 function NavBar({ currmode, toggleMode }: NavBarProps) {
-  const [count, setCount] = useState(0)
-
-const CountHandle = () => {
-  setCount(count + 1)
-}
-
   return (
     <nav className="navbar">
       <div className="nav-content">
@@ -27,7 +21,6 @@ const CountHandle = () => {
         <button onClick={toggleMode}>
           {currmode === 0 ? "Light" : currmode === 1 ? "Cream" : "Dark"}
         </button>
-        <button onClick={CountHandle}>Click me {count}</button>
         </div>
       </div>
     </nav>

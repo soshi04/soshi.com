@@ -1,0 +1,10 @@
+.pic{
+    width: 400px;
+    align-items: flex-start;
+}
+
+.about-components {
+    display: flex;
+    align-items: normal;
+    gap: 20rem;
+  }
