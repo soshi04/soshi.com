@@ -1,38 +1,50 @@
 body, html {
   margin: 0;
+  padding: 0;
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
+
 #root {
   text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-background-light,
+.app-background-dark,
+.app-background-cream {
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background 0.5s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .app-background-light {
-  min-height: 100vh;
-  width: 100vw;
   background-image: url('/src/assets/light.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: background 0.5s ease;
 }
 
 .app-background-dark {
-  min-height: 100vh;
-  width: 100vw;
   background-image: url('/src/assets/dark.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: background 0.5s ease;
 }
 
 .app-background-cream {
-  min-height: 100vh;
-  width: 100vw;
   background-image: url('/src/assets/cream.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: background 0.5s ease;
 }
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .app-background-light,
+  .app-background-dark,
+  .app-background-cream {
+    background-attachment: scroll;
+  }
+} 
