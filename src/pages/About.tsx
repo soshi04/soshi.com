@@ -16,7 +16,7 @@ function About() {
                 applications and a growing interest in the intersection of AI and human cognition. Outside of coding, I enjoy climbing,
                 playing soccer, and reading.
                 </p>
-                <img className="pic" src="/src/assets/IMG_1413.JPG" alt="none" />
+                <img className="pic" src="/IMG_1413.JPG" alt="none" />
             </div>
         </div>
     )}
