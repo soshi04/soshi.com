@@ -15,13 +15,11 @@ function App() {
 
   return (
     <div className={
-      mode === 0 ? "app-background-dark" :
-      mode === 1 ? "app-background-light" :
-      "app-background-cream"
+      mode === 0 ? "app-background-dark" : "app-background-light"
     }>
-      <NavBar currmode={mode} toggleMode={() => setMode(prev => (prev+1)%3)} />
+      <NavBar currmode={mode} toggleMode={() => setMode(prev => (prev+1)%2)} />
       <Routes>
-        <Route path='/' element={<MainPage/>}/>
+        <Route path='/' element={<MainPage currmode={mode}/>}/>
         <Route path='/About' element={<About/>}/>
         <Route path='/Projects' element={<Projects/>}/>
         <Route path='/Blog' element={<Blog/>}/>

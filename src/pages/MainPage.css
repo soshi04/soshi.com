@@ -6,3 +6,11 @@
   min-height: 60vh;
   gap: 1rem;
 }
+
+.h1-light {
+  color: black;
+}
+
+.h1-dark {
+  color: whitesmoke;
+}

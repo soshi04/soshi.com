@@ -15,8 +15,7 @@ body, html {
 }
 
 .app-background-light,
-.app-background-dark,
-.app-background-cream {
+.app-background-dark {
   min-height: 100vh;
   width: 100%;
   background-size: cover;
@@ -29,22 +28,17 @@ body, html {
 }
 
 .app-background-light {
-  background-image: url('/src/assets/light.jpg');
+  background-color: whitesmoke;
 }
 
 .app-background-dark {
-  background-image: url('/src/assets/dark.jpg');
-}
-
-.app-background-cream {
-  background-image: url('/src/assets/cream.jpg');
+  background-color: black;
 }
 
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
   .app-background-light,
-  .app-background-dark,
-  .app-background-cream {
+  .app-background-dark {
     background-attachment: scroll;
   }
 } 

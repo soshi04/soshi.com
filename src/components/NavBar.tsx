@@ -19,7 +19,7 @@ function NavBar({ currmode, toggleMode }: NavBarProps) {
         </div>
         <div className="nav-buttons">
         <button onClick={toggleMode}>
-          {currmode === 0 ? "Light" : currmode === 1 ? "Cream" : "Dark"}
+          {currmode === 0 ? "Light" : "Dark"}
         </button>
         </div>
       </div>
