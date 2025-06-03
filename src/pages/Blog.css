@@ -6,3 +6,7 @@
     min-height: 60vh;
     gap: 1rem;
 }
+
+.blog-test-buttons {
+    padding: 4rem;
+}

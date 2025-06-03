@@ -5,7 +5,7 @@ function Projects() {
     
     return(
         <div>
-            <h1>Projects Page</h1>
+            <h1>Works</h1>
             <Link to='https://leetcode-suggest-and-track.vercel.app/'>Leetcode Suggest</Link>
 
         </div>

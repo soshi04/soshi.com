@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
 import "./NavBar.css"
+import { IconButton } from '@mui/material'
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import LightModeIcon from '@mui/icons-material/LightMode';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 
 type NavBarProps = {
   currmode: number;
@@ -12,15 +17,18 @@ function NavBar({ currmode, toggleMode }: NavBarProps) {
     <nav className="navbar">
       <div className="nav-content">
         <div className="nav-links">
-          <Link to="/">Home</Link>
-          <Link to="/about">About Me</Link>
-          <Link to="/blog">Blog</Link>
-          <Link to="/projects">Projects</Link>
+          <Link to="/">home</Link>
+          <Link to="/projects">works</Link>
+          <Link to="/blog">words</Link>
+          <Link to="/about">whatever</Link>
         </div>
         <div className="nav-buttons">
-        <button onClick={toggleMode}>
-          {currmode === 0 ? "Light" : "Dark"}
-        </button>
+            <IconButton size="small" aira-label='github' href="https://github.com/soshi04">
+              <GitHubIcon/>
+            </IconButton>
+            <IconButton size='small' aria-label="switchmode" onClick={toggleMode}>
+              {currmode === 0 ? <LightModeIcon/> : <DarkModeIcon/>}
+            </IconButton> 
         </div>
       </div>
     </nav>

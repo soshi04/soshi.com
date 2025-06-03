@@ -6,7 +6,7 @@ function About() {
     return(
         <div>
             <h1>About me Page</h1>
-            <div>
+            <div className='about-components'>
                 <p>I'm a senior Computer Science student at Georgia Tech with a passion for building intuitive,
                 full-stack applications that blend functionality and thoughtful design. 
                 My recent projects include a leetcode problem suggestion tool and a personal productivity assistant powered
@@ -16,8 +16,8 @@ function About() {
                 applications and a growing interest in the intersection of AI and human cognition. Outside of coding, I enjoy climbing,
                 playing soccer, and reading.
                 </p>
-                <img className="pic" src="/IMG_1413.JPG" alt="none" />
             </div>
+            <img className="pic" src="/IMG_1413.JPG" alt="none" />
         </div>
     )}
 
