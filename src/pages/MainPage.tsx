@@ -1,6 +1,6 @@
 import { common } from '@mui/material/colors';
 import './MainPage.css';
-import { Typography, createTheme } from '@mui/material';
+import { Typography } from '@mui/material';
 
 type MainPageProps = {
     currmode : number
