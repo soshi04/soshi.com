@@ -25,3 +25,13 @@
   animation: gradientMove 10s ease infinite;
   pointer-events: none; /* Ensures it doesn't interfere with clicks */
 }
+
+.custom-link {
+  color: #64b5f6; /* Light blue */
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-link:hover {
+  text-decoration: underline;
+}
