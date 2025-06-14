@@ -6,12 +6,10 @@ import NavBar from './components/NavBar.tsx'
 import MainPage from './pages/MainPage.tsx'
 import Projects from './pages/Projects.tsx'
 import Blog from './pages/Blog.tsx'
-
-
+import BlogPost from './pages/BlogPost.tsx'
 
 function App() {
   const [mode, setMode] = useState(0);
-
 
   return (
     <div className={
@@ -23,6 +21,7 @@ function App() {
         <Route path='/About' element={<About/>}/>
         <Route path='/Projects' element={<Projects/>}/>
         <Route path='/Blog' element={<Blog/>}/>
+        <Route path='/blog/:id' element={<BlogPost currmode={mode}/>}/>
       </Routes>
     </div>
   )
