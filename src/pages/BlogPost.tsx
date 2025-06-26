@@ -13,7 +13,7 @@ import {
 } from '@mui/material';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { format } from 'date-fns';
-import { blogPosts } from '../data/blogPosts';
+import { blogPosts } from '../data/BlogData';
 
 type BlogPostProps = {
   currmode: number;

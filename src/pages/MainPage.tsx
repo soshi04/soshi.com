@@ -13,7 +13,7 @@ function MainPage({ currmode }: MainPageProps) {
         <div className="main-page">
             <div className="gradient-overlay"></div>
             <Typography variant='h2' color={color}>
-                Hey, I'm Sohum 👋
+                Hey, I'm Sohum
             </Typography>
             <Typography variant='subtitle1' color={color}>
                 Incoming CS Master's @ Georgia Tech | Machine Learning Engineer | Full-stack Developer
@@ -24,9 +24,9 @@ function MainPage({ currmode }: MainPageProps) {
             <Typography variant='subtitle1' color={color}>
                 Check out my{' '}
                 <Link to="/projects" className="custom-link">projects</Link>, read my{' '}
-                <Link to="/blog" className='custom-link'>thoughts</Link>, or{' '}
-                <a href="mailto:sjoshi376@gatech.edu" className='custom-link'>get in touch</a>.
+                <Link to="/blog" className='custom-link'>thoughts</Link>, or{' '} get in touch at
             </Typography>
+            <Typography variant='subtitle1' color={color}> sjoshi376 [at] gatech [dot] edu </Typography>
         </div>
     );
 }

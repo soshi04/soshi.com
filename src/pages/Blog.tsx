@@ -1,7 +1,7 @@
 import './Blog.css';
 import BlogPostCard from '../components/BlogPostCard';
 import { Box } from '@mui/material';
-import { blogPosts } from '../data/blogPosts';
+import { blogPosts } from '../data/BlogData';
 
 function Blog() {
 

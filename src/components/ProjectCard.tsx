@@ -39,9 +39,8 @@ export default function ProjectCard({ title, year, description, tags, image, lin
             ))}
         </Stack>
         <Typography variant="body2" color={common.black}>{description}</Typography>
-        <Button size="small" href={link} target="_blank" sx={{ mt: 1 }}>View Project</Button>
-        <Button size="small" href={github} target="_blank" sx={{ mt: 1 }}>Project Github</Button>
-
+        {link && (<Button size="small" href={link} target="_blank" sx={{ mt: 1 }}>View</Button>)}
+        {github && (<Button size="small" href={github} target="_blank" sx={{ mt: 1 }}>Github</Button>)}
       </CardContent>
     </Card>
   );

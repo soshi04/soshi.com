@@ -1,24 +1,54 @@
-import './About.css'
+import { red } from '@mui/material/colors';
+import {
+    Paper,
+    Box,
+    Container,
+    Grid,
+    Typography,
+    Stack,
+    Accordion,
+    AccordionSummary,
+    AccordionDetails
+} from '@mui/material'
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+
 
 
 function About() {
     
     return(
-        <div>
-            <h1>About me Page</h1>
-            <div className='about-components'>
-                <p>I'm a senior Computer Science student at Georgia Tech with a passion for building intuitive,
-                full-stack applications that blend functionality and thoughtful design. 
-                My recent projects include a leetcode problem suggestion tool and a personal productivity assistant powered
-                by OpenAI, reflecting my focus on using machine learning and web technologies to solve problems.
-                I’ve explored deep learning, React, TypeScript, Express, GraphQL, and cloud platforms like Vercel and Google Cloud,
-                and I enjoy learning new tools by applying them to hands-on projects. I also have experience fine-tuning LLMs for scientific 
-                applications and a growing interest in the intersection of AI and human cognition. Outside of coding, I enjoy climbing,
-                playing soccer, and reading.
-                </p>
-            </div>
-            <img className="pic" src="/IMG_1413.JPG" alt="none" />
-        </div>
+        <Stack direction="row" spacing={4}
+        sx={{
+            justifyContent:'center',
+            alignItems:'center',
+            mr:10,
+            ml:10,
+            mt:5
+
+        }}>
+            <Accordion>
+                <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
+                    <Typography component="span">Interesting Research</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Typography variant='subtitle2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Commodi perspiciatis exercitationem ipsam beatae aliquid qui similique ducimus numquam 
+                    dolor quod iusto iste amet dignissimos atque, dicta at quidem eligendi optio.
+                    </Typography>                    
+                </AccordionDetails>
+            </Accordion>
+            <Accordion>
+                <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
+                    <Typography component="span">AIGT Education</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <Typography variant='subtitle2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Commodi perspiciatis exercitationem ipsam beatae aliquid qui similique ducimus numquam 
+                    dolor quod iusto iste amet dignissimos atque, dicta at quidem eligendi optio.
+                    </Typography>                    
+                </AccordionDetails>
+            </Accordion>
+        </Stack>
     )}
 
 export default About

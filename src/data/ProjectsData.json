@@ -1,0 +1,40 @@
+{
+    "projects" : [
+        {
+          "title": "Leetcode Suggest",
+          "year": "2025",
+          "description": "A LeetCode problem tracking application that helps users monitor and manage their coding practice progress. The application provides features for tracking solved problems, viewing statistics, and getting AI-powered assistance on what to practice next.",
+          "tags": ["React", "TypeScript", "Firebase (Authentication & Database)", "OpenAI API", "Node.js", "GraphQL"],
+          "image": "/leetcode_suggest.JPG",
+          "link": "https://leetcode-suggest-and-track.vercel.app/",
+          "github": "https://github.com/soshi04/leetcode-suggest-and-track"
+        },
+        {
+          "title": "Accelerating Materials Discovery with AI",
+          "year": "2024-2025",
+          "description": "Applied ML in material science by fine-tuning LLaMA on text-based representations of crystal structures and training graph neural networks on the QM9 dataset to predict molecular properties with improved accuracy. Developed efficient pipelines to convert complex structural data into formats suitable for large language models.",
+          "tags": ["LLM fine-tuning", "Graph Neural Network", "Deep Learning", "PyTorch"],
+          "image": "/VIP.jpg",
+          "link": "https://vip.gatech.edu/teams/vxp",
+          "github": ""
+        },
+        {
+          "title": "Proj 2",
+          "year": "2025",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et ipsa omnis quod ipsam, eius fugit doloribus, quas earum iste, tempore suscipit temporibus at atque dolor assumenda labore officiis delectus.",
+          "tags": ["Temporary", "Filler", "Tags", "Even longer filler", "Super longgggggg filler tag"],
+          "image": "/filler.jpg",
+          "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+          "github": ""
+        },
+        {
+          "title": "Proj 3",
+          "year": "2025",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et ipsa omnis quod ipsam, eius fugit doloribus, quas earum iste, tempore suscipit temporibus at atque dolor assumenda labore officiis delectus.",
+          "tags": ["Temporary", "Filler", "Tags", "Even longer filler", "Super longgggggg filler tag"],
+          "image": "/filler.jpg",
+          "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+          "github": ""
+        }
+      ]
+}
