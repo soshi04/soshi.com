@@ -1,9 +1,4 @@
-import { red } from '@mui/material/colors';
 import {
-    Paper,
-    Box,
-    Container,
-    Grid,
     Typography,
     Stack,
     Accordion,
