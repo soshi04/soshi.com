@@ -3,14 +3,14 @@ import {
     Stack,
     Accordion,
     AccordionSummary,
-    AccordionDetails
+    AccordionDetails,
+    Box
 } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
 
-function About() {
-    
+function Extras() {
     return(
         <Stack direction="row" spacing={4}
         sx={{
@@ -21,6 +21,7 @@ function About() {
             mt:5
 
         }}>
+            <Box>
             <Accordion>
                 <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                     <Typography component="span">Interesting Research</Typography>
@@ -32,6 +33,8 @@ function About() {
                     </Typography>                    
                 </AccordionDetails>
             </Accordion>
+            </Box>
+            <Box>
             <Accordion>
                 <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                     <Typography component="span">AIGT Education</Typography>
@@ -43,7 +46,8 @@ function About() {
                     </Typography>                    
                 </AccordionDetails>
             </Accordion>
+            </Box>
         </Stack>
     )}
 
-export default About
+export default Extras
