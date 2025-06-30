@@ -19,22 +19,22 @@
           "github": ""
         },
         {
-          "title": "Proj 2",
+          "title": "Finger Detection and Count",
           "year": "2025",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et ipsa omnis quod ipsam, eius fugit doloribus, quas earum iste, tempore suscipit temporibus at atque dolor assumenda labore officiis delectus.",
-          "tags": ["Temporary", "Filler", "Tags", "Even longer filler", "Super longgggggg filler tag"],
-          "image": "/filler.jpg",
-          "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
-          "github": ""
+          "description": "Used the Ultralytics YOLOv8 framework to train a custom object detection model that detects finger count on hands.",
+          "tags": ["CV2", "Python", "Ultralytics YOLOv8"],
+          "image": "/finger_detection.jpg",
+          "link": "https://www.youtube.com/watch?v=zewiVvjaNV4&ab_channel=soshi04",
+          "github": "https://github.com/soshi04/Finger-Counting.git"
         },
         {
-          "title": "Proj 3",
-          "year": "2025",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et ipsa omnis quod ipsam, eius fugit doloribus, quas earum iste, tempore suscipit temporibus at atque dolor assumenda labore officiis delectus.",
-          "tags": ["Temporary", "Filler", "Tags", "Even longer filler", "Super longgggggg filler tag"],
+          "title": "Spotify Wrapped",
+          "year": "2024",
+          "description": "An Android app that integrates with Spotify and Firebase. It provides a music-focused experience where users can register/login, connect their Spotify account, and view personalized music data (like top tracks) in a visually rich, multi-screen interface.",
+          "tags": ["Spotify API", "XML", "Java", "Firebase (Authentication & Database)"],
           "image": "/filler.jpg",
-          "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
-          "github": ""
+          "link": "",
+          "github": "https://github.com/anoosha-thumma/2340Project2"
         }
       ]
 }
