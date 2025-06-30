@@ -54,15 +54,11 @@ more with.
 
 ---
 ### May
-
 While I did get some stuff done this month, it was mostly foundational. In these coming months I want to learn a lot more about NLP and Computer Vision to the point where I can actually create and deploy projects that I find interesting and am actually passionate about, not just stepping stones.
-Next month I also wish to have more structure in my daily routine. I know being unemployed should make that extremly easy but at least for this month there was a large life factor that came in the way. This was my final month of living in my hometown Rochester, MN. My family is moving soon and I
-have had to help everyday with moving things, packing things, and maintaining the house. Our house is also on the market so when we have showings we have to leave the house. I have been sleeping on an airmattress and I swear the sleep is so bad I wake up every day with some type of back/neck pain
-so I can't wait untill I finally get to sleep in my bed again next month. Another thing, literally right at the start of May, I dislocated my shoulder while doing indoor climbing so thats also been super annoying. I have physical therapy like every morning for it and its got much better but I still won't be
-able to climb for probably all summer which sucks. On the bright side, this month I spent time with my family and hometown friends a good bit as well since I do not know when I will go back to see them (hopefuly winter break or something) and that was nice. We are going to leave June 6th and drive to Atlanta so thats all for now.
-I'll see you in the next month recap when I'm in Atlanta!
+This was my final month of living in my hometown Rochester, MN. My family is moving soon to Atlanta so that is pretty time consuming for me right now. Also, literally right at the start of May, I dislocated my shoulder while doing indoor climbing so thats also been super annoying. I've been pretty into climbing this year and now I wont be able to climb basically all summer.
+On the bright side, this month I spent time with my family and hometown friends a good bit as well since I do not know when I will go back to see them (hopefuly winter break or something) and that was nice. We are going to leave June 6th and drive to Atlanta so thats all for now.
     `,
-    readingTime: 5,
+    readingTime: 4,
     tags: ['Technology', 'Development', 'Life'],
   },
 

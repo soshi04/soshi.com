@@ -1,0 +1,19 @@
+{
+  "research": [
+    {
+      "title": "Research Topic 1",
+      "url": "https://example.com/paper1",
+      "description": "A short description or your take on this paper."
+    },
+    {
+      "title": "Research Topic 2",
+      "url": "https://example.com/paper2",
+      "description": "Another interesting insight or summary."
+    },
+    {
+      "title": "Research Topic 3",
+      "url": "https://example.com/paper3",
+      "description": "Your thoughts about this research."
+    }
+  ]
+} 
