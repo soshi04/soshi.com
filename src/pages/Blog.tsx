@@ -27,7 +27,6 @@ function Blog() {
         }}
       />
 
-      {/* Blog entries */}
       {blogPosts.map((post) => (
         <Box
           key={post.id}
