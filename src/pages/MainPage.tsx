@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, IconButton, Stack, Typography } from '@mui/material';
+import { Avatar, Box, IconButton, Stack, Typography } from '@mui/material';
 import { common } from '@mui/material/colors';
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
