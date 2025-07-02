@@ -25,7 +25,7 @@ export default function MainPage({ currmode, toggleMode }: MainPageProps) {
         alignItems: 'center',
         justifyContent: 'center',
         px: 2,
-        gap: 6,
+        gap: 4,
       }}
     >
       {/* Top section */}
@@ -34,6 +34,8 @@ export default function MainPage({ currmode, toggleMode }: MainPageProps) {
         spacing={3}
         alignItems="center"
         justifyContent="center"
+        mt={2}
+        mb={2}
       >
         <Avatar
           alt="Sohum Avatar"
@@ -66,82 +68,23 @@ export default function MainPage({ currmode, toggleMode }: MainPageProps) {
             </Stack>
           </Stack>
           <Typography variant="subtitle1" color={color} mt={1}>
-            Incoming CS Master's @ Georgia Tech | Machine Learning Engineer | Full-stack Developer
+            Incoming CS Master's @ Georgia Tech | Machine Learning Engineer
           </Typography>
         </Box>
       </Stack>
-
       {/* Middle Section */}
       <Box textAlign="center">
         <Typography variant="body1" color={color}>
-          I'm currently building <b>Object Detection</b> — a tool to help you detect objects in images using OpenCV.
+        I'm currently building <b>GestureRemix</b> — a tool that lets you remix music in real time using hand gestures captured via your webcam.
         </Typography>
         <Typography variant="body1" color={color} mt={1}>
           <b>sjoshi376 [at] gatech [dot] edu</b>
         </Typography>
-      </Box>
+        <Typography variant="body1" color={color} mt={1}>
+            Check out my <Link to={'/projects'}>projects</Link>, read my <Link to={'/blog'}>blog</Link> or see <Link to={'/about'}>whatever</Link> else I'm doing.
 
-      {/* Bottom Buttons */}
-      <Stack
-        direction={{ xs: 'column', sm: 'row' }}
-        spacing={3}
-        alignItems="center"
-        justifyContent="center"
-        width="100%"
-        maxWidth={400}
-        >
-        <Button
-            fullWidth
-            variant="contained"
-            component={Link}
-            to="/projects"
-            sx={{
-            backgroundColor: 'orange',
-            color: 'white',
-            '&:hover': {
-                backgroundColor: 'darkorange',
-                color: 'white', // prevents blue text on hover
-            },
-            textDecoration: 'none',
-            }}
-        >
-            WORK
-        </Button>
-        <Button
-            fullWidth
-            variant="contained"
-            component={Link}
-            to="/blog"
-            sx={{
-            backgroundColor: 'blue',
-            color: 'white',
-            '&:hover': {
-                backgroundColor: 'darkblue',
-                color: 'white',
-            },
-            textDecoration: 'none',
-            }}
-        >
-            WORDS
-        </Button>
-        <Button
-            fullWidth
-            variant="contained"
-            component={Link}
-            to="/about"
-            sx={{
-            backgroundColor: 'red',
-            color: 'white',
-            '&:hover': {
-                backgroundColor: 'darkred',
-                color: 'white',
-            },
-            textDecoration: 'none',
-            }}
-        >
-            WHATEVER
-        </Button>
-        </Stack>
+        </Typography>
+      </Box>
     </Box>
   );
 }
