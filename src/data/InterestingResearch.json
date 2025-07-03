@@ -1,9 +1,9 @@
 {
   "research": [
     {
-      "title": "Research Topic 1",
-      "url": "https://example.com/paper1",
-      "description": "A short description or your take on this paper."
+      "title": "AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE",
+      "url": "https://arxiv.org/abs/2010.11929",
+      "description": "The architecture of the ViT is quite intesting, especially the concept of sequentially feeding in patches. Although results from the paper showed that due to lack of inductive bias that is there in CNNs it takes an EXTREMELY large amount of data to have it preform better then, say, ResNet on benchmark classification tasks."
     },
     {
       "title": "Research Topic 2",
