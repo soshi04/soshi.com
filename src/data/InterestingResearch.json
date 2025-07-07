@@ -6,9 +6,9 @@
       "description": "The architecture of the ViT is quite intesting, especially the concept of sequentially feeding in patches. Although results from the paper showed that due to lack of inductive bias that is there in CNNs it takes an EXTREMELY large amount of data to have it preform better then, say, ResNet on benchmark classification tasks."
     },
     {
-      "title": "Research Topic 2",
-      "url": "https://example.com/paper2",
-      "description": "Another interesting insight or summary."
+      "title": "The Illusion of Thinking: Understanding the Strenghs and Limitations of Reasoning Models via the Lens of Problem Complexity",
+      "url": "https://machinelearning.apple.com/research/illusion-of-thinking",
+      "description": "I have mixed feelings about this paper. When I found this paper I saw a comment someone made about it that said \"fork found in kitchen.\" The paper compares LRMs and LLMs in a series of puzzle like games and the most intersting finding from these experiments was that at high complexities, both types of models show complete collapse in reasoning. The LRMs didnt even bother to use all the thinking tokens suggesting a fundemental scaling limitation in thinking."
     },
     {
       "title": "Research Topic 3",
