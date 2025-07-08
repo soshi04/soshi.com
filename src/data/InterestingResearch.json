@@ -8,12 +8,12 @@
     {
       "title": "The Illusion of Thinking: Understanding the Strenghs and Limitations of Reasoning Models via the Lens of Problem Complexity",
       "url": "https://machinelearning.apple.com/research/illusion-of-thinking",
-      "description": "I have mixed feelings about this paper. When I found this paper I saw a comment someone made about it that said \"fork found in kitchen.\" The paper compares LRMs and LLMs in a series of puzzle like games and the most intersting finding from these experiments was that at high complexities, both types of models show complete collapse in reasoning. The LRMs didnt even bother to use all the thinking tokens suggesting a fundemental scaling limitation in thinking."
+      "description": "I have mixed feelings about this paper. When I found this paper I saw a comment someone made about it that said \"fork found in kitchen\" which I thought was funny. The paper compares LRMs and LLMs in a series of puzzle like games and the most intersting finding from these experiments was that at high complexities, both types of models show complete collapse in reasoning. The LRMs didnt even bother to use all the thinking tokens suggesting a fundemental scaling limitation in thinking."
     },
     {
-      "title": "Research Topic 3",
-      "url": "https://example.com/paper3",
-      "description": "Your thoughts about this research."
+      "title": "Attention training and attention state training",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1364661309000655?casa_token=1_Vt-JicDAwAAAAA:WZwf8qMEIaUTigbc_vXn3EZllAihFdqB7BfFaXBdwj-QxdOVhWlIxf1V3uDxUBbFF2cVAY2Acg",
+      "description": "This is a really interesting Cognitive Science research paper. It's different from the usual ML papers and it was interesting to read. I already knew many of the advantages of AST as described in the paper but actually reading about the advantages of better executive control from applied training was cool to learn about. This paper does a great job in seperating and describing AT vs AST as well as the experiments conducted on the ANT test from both forms of training."
     }
   ]
 } 

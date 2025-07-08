@@ -69,6 +69,7 @@ function Extras() {
                 {ppt.label}
               </Link>
             ))}
+            <Typography>Reworking lectures, more to come... </Typography>
           </Stack>
         </Paper>
       </Stack>
