@@ -5,7 +5,7 @@ import powerpointsData from '../data/AigtPowerpoints.json';
 
 function Extras() {
   return (
-    <Box sx={{ px: { xs: 1, sm: 3, md: 6 }, py: 4 }}>
+    <Box sx={{ px: { xs: 1, sm: 3, md: 6 }, py: 4, pb: 10 }}>
       <Stack
         direction={{ xs: 'column', md: 'row' }}
         spacing={6}

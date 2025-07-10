@@ -15,6 +15,7 @@ function Blog() {
         px: 2,
         py: 4,
         position: 'relative',
+        pb: 10,
       }}
     >
       <Box
