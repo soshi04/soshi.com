@@ -37,28 +37,30 @@ export default function NavBar({ currmode, toggleMode }: NavBarProps) {
         gap: 3,
         zIndex: 1000,
         alignItems: 'center',
+        paddingLeft: 'env(safe-area-inset-left)', //new 
+        paddingRight: 'env(safe-area-inset-right)', //new 
       }}
     >
       <IconButton component={Link} to="/" aria-label="Home">
-        <HomeIcon />
+        <HomeIcon sx={{ fontSize: { xs: 20, sm: 24 } }} />
       </IconButton>
       <IconButton component={Link} to="/projects" aria-label="Projects">
-        <WorkIcon />
+        <WorkIcon sx={{ fontSize: { xs: 20, sm: 24 } }} />
       </IconButton>
       <IconButton component={Link} to="/blog" aria-label="Blog">
-        <ArticleIcon />
+        <ArticleIcon sx={{ fontSize: { xs: 20, sm: 24 } }} />
       </IconButton>
       <IconButton component={Link} to="/about" aria-label="Whatever">
-        <AllInclusiveIcon />
+        <AllInclusiveIcon sx={{ fontSize: { xs: 20, sm: 24 } }} />
       </IconButton>
       <IconButton size="small" href="https://github.com/soshi04" aria-label="GitHub">
-        <GitHubIcon />
+        <GitHubIcon sx={{ fontSize: { xs: 20, sm: 24 } }} />
       </IconButton>
       <IconButton size="small" href="https://linkedin.com/in/sohum-joshi" aria-label="LinkedIn">
-        <LinkedInIcon />
+          <LinkedInIcon sx={{ fontSize: { xs: 20, sm: 24 } }} />
       </IconButton>
       <IconButton size="small" onClick={toggleMode} aria-label="Toggle Dark Mode">
-        {currmode === 0 ? <LightModeIcon /> : <DarkModeIcon />}
+        {currmode === 0 ? <LightModeIcon sx={{ fontSize: { xs: 20, sm: 24 } }} /> : <DarkModeIcon sx={{ fontSize: { xs: 20, sm: 24 } }} />}
       </IconButton>
     </Paper>
   );

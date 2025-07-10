@@ -24,6 +24,9 @@ export default function MainPage({ currmode, toggleMode }: MainPageProps) {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
+        // maxWidth: '1000px', //new 
+        // mx: 'auto', //new 
+        // width: '100%', //new 
         px: 2,
         gap: 4,
       }}
