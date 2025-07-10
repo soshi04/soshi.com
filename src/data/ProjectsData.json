@@ -5,7 +5,7 @@
           "year": "2025",
           "description": "A LeetCode problem tracking application that helps users monitor and manage their coding practice progress. The application provides features for tracking solved problems, viewing statistics, and getting AI-powered assistance on what to practice next.",
           "tags": ["React", "TypeScript", "Firebase (Authentication & Database)", "OpenAI API", "Node.js", "GraphQL"],
-          "image": "/leetcode_suggest.JPG",
+          "image": "/leetcode_suggest1.jpg",
           "link": "https://leetcode-suggest-and-track.vercel.app/",
           "github": "https://github.com/soshi04/leetcode-suggest-and-track"
         },
