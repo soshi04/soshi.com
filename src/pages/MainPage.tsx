@@ -85,7 +85,6 @@ export default function MainPage({ currmode, toggleMode }: MainPageProps) {
         </Typography>
         <Typography variant="body1" color={color} mt={1}>
             Check out my <Link to={'/projects'}>projects</Link>, read my <Link to={'/blog'}>blog</Link> or see <Link to={'/about'}>whatever</Link> else I'm doing.
-
         </Typography>
       </Box>
     </Box>

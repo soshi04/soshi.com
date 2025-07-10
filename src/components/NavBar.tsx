@@ -27,22 +27,22 @@ export default function NavBar({ currmode, toggleMode }: NavBarProps) {
         left: '50%',
         transform: 'translateX(-50%)',
         borderRadius: '30px',
-        px: 4,
+        px: { xs: 1.5, sm: 2 }, //new
         py: 1,
-        backgroundColor: currmode === 0 ? '#23272f' : '#fff',
-        color: currmode === 0 ? '#fff' : '#000',
+        backgroundColor: '#fff',
+        color: '#fff',
         border: currmode === 0 ? '1.5px solid #444' : '1.5px solid #eee',
         boxShadow: currmode === 0 ? '0 4px 24px 0 #0008' : undefined,
         display: 'flex',
-        gap: 3,
+        gap: 2,
         zIndex: 1000,
         alignItems: 'center',
-        paddingLeft: 'env(safe-area-inset-left)', //new 
-        paddingRight: 'env(safe-area-inset-right)', //new 
+        paddingLeft: 'calc(1.5rem + env(safe-area-inset-left))', //new
+        paddingRight: 'calc(1.5rem + env(safe-area-inset-right))', //new
       }}
     >
       <IconButton component={Link} to="/" aria-label="Home">
-        <HomeIcon sx={{ fontSize: { xs: 20, sm: 24 } }} />
+        <HomeIcon sx={{ fontSize: { xs: 20, sm: 24 }, xs: {paddingLeft: 0.25} }} />
       </IconButton>
       <IconButton component={Link} to="/projects" aria-label="Projects">
         <WorkIcon sx={{ fontSize: { xs: 20, sm: 24 } }} />
@@ -60,7 +60,8 @@ export default function NavBar({ currmode, toggleMode }: NavBarProps) {
           <LinkedInIcon sx={{ fontSize: { xs: 20, sm: 24 } }} />
       </IconButton>
       <IconButton size="small" onClick={toggleMode} aria-label="Toggle Dark Mode">
-        {currmode === 0 ? <LightModeIcon sx={{ fontSize: { xs: 20, sm: 24 } }} /> : <DarkModeIcon sx={{ fontSize: { xs: 20, sm: 24 } }} />}
+        
+        {currmode === 0 ? <LightModeIcon sx={{ fontSize: { xs: 20, sm: 24 }, xs: {paddingRight:0.25} }} /> : <DarkModeIcon sx={{ fontSize: { xs: 20, sm: 24 }, xs: {paddingRight:0.25} }} />}
       </IconButton>
     </Paper>
   );
