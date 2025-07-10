@@ -43,7 +43,7 @@ export default function MainPage({ currmode, toggleMode }: MainPageProps) {
           sx={{ width: 125, height: 125 }}
         />
         <Box textAlign={{ xs: 'center', sm: 'left' }}>
-          <Stack direction="row" alignItems="center" justifyContent="space-between" spacing={2}>
+          <Stack direction={{xs: 'column', sm: 'row'}} alignItems="center" justifyContent="space-between" spacing={2}>
             <Typography variant="h4" fontWeight={700} color={color}>
               <Typewriter
                 words={["Hey, I'm Sohum"]}
