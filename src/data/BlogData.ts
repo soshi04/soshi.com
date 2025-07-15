@@ -9,21 +9,54 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
-   {
-        id: '1',
+  {
+    id: '1',
+    date: new Date('2025-06-11'),
+    title: 'June Recap',
+    description: 'Working on Computer Vision, Developed and deployed an end-to-end ML pipeline',
+    content: ` 
+  ### June Project
+
+  As I said last month, I wanted to focus on Computer Vision and so for this project I decided to try something simple. I knew about YOLO framework for CV and I decided to mess around with that to create a finger count detection
+  model. The goal would simply be to detect a hand and then also display how many fingers were being held up. At first I thought I could use a pre labeled kaggle dataset but then I realized I needed to detect the hand as well at classify it
+  for my project which would be using a live video feed. At the time of writing this I now know that there are so many better models and frameworks (like mediapipe by google) that already do all this but I didn't do enough research before starting so I
+  decided to create my entire dataset from scratch. This entire process of data engineering actually taught me so much so I'm glad I did it in the end. All the code is on my github linked on the project so you can follow along and in this post I'll just 
+  walk through the general process. To begin I first made a really simple script to capture several pictures of my hand while I was holding up various finger counts. After I had my data I had to annotate all of it so I could have the YOLO model detect hands
+  and attach the respective classification box. To do this I used RoboFlow to go through the +2000 images and create annotations. As the reader can assume, this process was pretty tedious. I also had to repeat it multiple times as to imporve model preformance 
+  its always a good idea to just get more data. If this project taught me anything at all it was the importance of good quality data to train a model. When I first trained and tested my intial model, it preformed extremly poorly in real world application. I realized that
+  the model was not generalizing well to different backgrounds with changes in lighting and different peoples hands. After gathering more data I found out about adding augmentations to the images. Roboflow makes this process extremely simple and I added around 4-5 thousand more images to the
+  dataset. I also eventually purchased Google Colab Pro because then I could have access to the GPU and train a larger model with more parameters. I settled on a YOLOv8m but I couldve trained a larger model. The larger model probably would've ran terribly on my MacBook so its fine
+  that I didnt. At the end, the model actually preformed really well in real world application but it took in 800x800 images and it was just too much to run smoothly on my local device. Since I didnt want to pay to host it anywhere I could not deploy it which is a bit unfortunate. I did host my
+  dataset as well as the model on HuggingFace to try for anyone who is curious as well as having a super simple and easy to follow notebook on my github. 
+
+    `,
+    readingTime: 3,
+    tags: ['Technology', 'Development'],
+  },
+  
+  {
+        id: '2',
         date: new Date('2025-06-11'),
         title: 'Old Man and the Sea',
         description: 'My thoughts about this classic book by Ernest Hemmingway',
-        content: ` This book was sensational.
+        content: ` This was a quick read before me and my friend start reading Crime and Punishment (a book that has been on my bookself for a while). I had never read Hemmingway before
+        but this book was extremely short and we decided to split it up in to a quick 3 day read. I personally thought the beginning of the book was a little slow but after he hooks the marlin
+        the rest of the story was sensational. There is so much to analyize in this book but one theme that really stuck out to me was Santiago's pride. He had been on a long streak of bad luck
+        and this fish was more than just a fish to him. It was a battle to prove to himself that he was still a great fisherman. This ego to prove something leads to an intense battle. Throughout this
+        battle with the fish, there are several times when you can't help but think "just left it go" as he brushes with death several times all because he is too prideful to let this fish go. Santiago's fight with the marlin
+        becomes a metaphor for the human condition, noble, painful, and deeply personal. Despite losing the fish to sharks, Santiago's endurance and courage highlight Hemingway's idea of the a hero as someone who shows perseveres under pressure.
+        The plot was pretty straightforward but its rich symbolism and emotion emphasizes the greater message that success isn’t always measured by outcomes, but by how one faces adversity. I also thought the ending was well done as well although
+        it was kind of impossible to mess up the ending after a certain point in the story. Even if he died or not, brought back the fish or not, all outcomes would've worked perfectly with the themes of the story. Even though Santiago felt as if he
+        lost at the end of the story, the reader as well as the other characters in the story know of his success and that again highlights a crucial point, success is only measured by the individual. 
         `,
         readingTime: 2,
         tags: ['Books', 'Life'],
       }, 
       {
-    id: '2',
+    id: '3',
     date: new Date('2025-05-31'),
     title: 'May Recap',
-    description: 'Building in React, Leetcode-Suggest development and last month in Rochester :(',
+    description: 'Building in React, Leetcode-Suggest development and last month in Rochester',
     content: ` 
 ### Portfolio Website
 
