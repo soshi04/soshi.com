@@ -71,7 +71,7 @@ export default function MainPage({ currmode, toggleMode }: MainPageProps) {
             </Stack>
           </Stack>
           <Typography variant="subtitle1" color={color} mt={1}>
-            Incoming CS Master's @ Georgia Tech | Machine Learning Engineer
+            Rising Senior @ Georgia Tech | Machine Learning Engineer
           </Typography>
         </Box>
       </Stack>
