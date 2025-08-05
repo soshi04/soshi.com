@@ -1,7 +1,7 @@
 {
   "research": [
     {
-      "title":"Attend and Interact: Higher-Order Object Interactions for Video Understanding",
+      "title":"Adam: A Method for Stochastic Optimization",
       "url":"https://arxiv.org/abs/1412.6980",
       "description":" The Adam optimizer is one of the most popular optimization algorithms in all of machine learning. This algorithm for updating the weights of a model generalizes to several areas of ML and doesnt require much tuning of hyperparams except learning rate. You do need to know about SGD, RMSProp and Gradient descent with momentum as prior readings to fully understand this paper as well. This was the most mathematically intensive paper I have read so far and although I understand the general concepts the proofs are still quite complex as of now."
     },
