@@ -1,9 +1,19 @@
 {
   "research": [
     {
-      "title": "AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE",
-      "url": "https://arxiv.org/abs/2010.11929",
-      "description": "The architecture of the ViT is quite intesting, especially the concept of sequentially feeding in patches. Although results from the paper showed that due to lack of inductive bias that is there in CNNs it takes an EXTREMELY large amount of data to have it preform better then, say, ResNet on benchmark classification tasks."
+      "title":"Attend and Interact: Higher-Order Object Interactions for Video Understanding",
+      "url":"https://arxiv.org/abs/1412.6980",
+      "description":" The Adam optimizer is one of the most popular optimization algorithms in all of machine learning. This algorithm for updating the weights of a model generalizes to several areas of ML and doesnt require much tuning of hyperparams except learning rate. You do need to know about SGD, RMSProp and Gradient descent with momentum as prior readings to fully understand this paper as well. This was the most mathematically intensive paper I have read so far and although I understand the general concepts the proofs are still quite complex as of now."
+    },
+    {
+      "title":"Attend and Interact: Higher-Order Object Interactions for Video Understanding",
+      "url":"https://arxiv.org/abs/1711.06330",
+      "description":" This is a computer vision paper for capturing interactions between objects in a video. The paper presents an attention mechanism to select subsets of relevant objects dynamically. It is based on factors such as current frame features, previously learned interactions and coarse image context. These selected groups are used to model higher-order interactions, and passed through an LSTM to capture temporal dynamics (time) from the video. There is so much more to it then just that and I had to sit with this paper for a while to fully understand it but it was definitely one of the more worthwhile papers I've read."
+    },
+    {
+      "title": "Attention training and attention state training",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1364661309000655?casa_token=1_Vt-JicDAwAAAAA:WZwf8qMEIaUTigbc_vXn3EZllAihFdqB7BfFaXBdwj-QxdOVhWlIxf1V3uDxUBbFF2cVAY2Acg",
+      "description": "This is a really interesting Cognitive Science research paper. It's different from the usual ML papers that I have on here. I already knew many of the advantages of AST as described in the paper but actually reading about the advantages of better executive control from applied training was cool to learn about. This paper does a great job in seperating and describing AT vs AST as well as the experiments conducted on the ANT test from both forms of training."
     },
     {
       "title": "The Illusion of Thinking: Understanding the Strenghs and Limitations of Reasoning Models via the Lens of Problem Complexity",
@@ -11,9 +21,9 @@
       "description": "I have mixed feelings about this paper. When I found this paper I saw a comment someone made about it that said \"fork found in kitchen\" which I thought was funny. The paper compares LRMs and LLMs in a series of puzzle like games and the most intersting finding from these experiments was that at high complexities, both types of models show complete collapse in reasoning. The LRMs didnt even bother to use all the thinking tokens suggesting a fundemental scaling limitation in thinking."
     },
     {
-      "title": "Attention training and attention state training",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1364661309000655?casa_token=1_Vt-JicDAwAAAAA:WZwf8qMEIaUTigbc_vXn3EZllAihFdqB7BfFaXBdwj-QxdOVhWlIxf1V3uDxUBbFF2cVAY2Acg",
-      "description": "This is a really interesting Cognitive Science research paper. It's different from the usual ML papers that I have on here. I already knew many of the advantages of AST as described in the paper but actually reading about the advantages of better executive control from applied training was cool to learn about. This paper does a great job in seperating and describing AT vs AST as well as the experiments conducted on the ANT test from both forms of training."
+      "title": "AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE",
+      "url": "https://arxiv.org/abs/2010.11929",
+      "description": "The architecture of the ViT is quite intesting, especially the concept of sequentially feeding in patches. Although results from the paper showed that due to lack of inductive bias that is there in CNNs it takes an EXTREMELY large amount of data to have it preform better then, say, ResNet on benchmark classification tasks."
     }
   ]
 } 
