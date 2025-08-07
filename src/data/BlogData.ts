@@ -11,7 +11,32 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     id: '1',
-    date: new Date('2025-06-11'),
+    date: new Date('2025-08-02'),
+    title: 'July Recap',
+    description: 'Learning the Basics, slight burnout, next steps',
+    content: ` 
+  ### July 
+
+  This month was in all honestly pretty disappointing, I think I didn't have enough direction in what I wanted to do. I have started a new project and originally I wanted to build off the project I had completed last month (the finger detection). While I was doing more research for how to go
+  about making this I found so many new technologies like Google Mediapipe and the whole concept of landmark detection. It is of course on me that I didn't do this research beforehand for my previous project (partly because I just wanted to do everything from scratch) but I felt like there was
+  not really any point to what I just did. I also did not have proper knowledge on the topics so I decided why not learn more before jumping into things. So this month I spent the majority of the time working through a Deep Learning Specialization I found on Coursera by DeepLearning.AI. This specalization
+  has genuinely taught me so much foundational knowledge that I was lacking and as of writing this I am on the last week of course 4/5 so I plan on finishing it soon. I realized that what I did on my last project was a full end-to-end deep learning approach to the problem of identifying how many fingers someone was holding.
+  This is why I needed to rigourously get so much data and spend so much time annotating it. I learned about the landmarking approach of first identifying something (hand, face, body, etc), marking the coordinates of key features and then simply feeding those coordinates into a feed forward neural net to make a classifcation. This is 
+  the approach I want to take with this next project. Luckily mediapipe already has an amazing hand landmark classifier and there is already exisiting repo's on github that make it easy to add new data to make your own classes as well. This also runs much smoother compared to the large YOLO model that fine tuned. 
+
+  Another thing that I did more this month for learning more about ML was reading research papers. I have some of the papers I've read linked to on this website and I want to try to read more. I think its a bit difficult to find interesting papers that are also written at a level that I can understand as of now. Obviously 
+  reading more papers will make me better at understanding them so I just need to keep finding more. So far I have been at about 1 a week which is incredibly low rate but it is something new I have started. A lot of the newer papers (last 5-8 years) are quite complex and I think I need to start a bit further back still. Again,
+  this month was overall quite directionless and I hope that next month I'll be able to lock back in and get more done. I think what I need is to get more involved with the deep learing community so that is something I want to work on. I have truly learned a lot this month and now I just need to put the knowledge to use. Its like that 
+  one quote, "wisdom is applied knowledge." Anyways, aside from all that I need to reach out to actively try to get involved in the community, it will help me get some direction talking to other people doing the same thing and hopefully some guidence as well. That would be nice. Aside from all the project and ML work, my final year of undergrad
+  is about to start in a couple weeks so thats pretty exciting. I have built a soild routine this summer and its unfortunate that I'll have to redo all that but oh well thats part of the fun I guess. It'll be nice to have a change of pace I just hope I can stay focused on what matters especially on this final year.  
+
+    `,
+    readingTime: 3,
+    tags: ['Life'],
+  },
+  {
+    id: '2',
+    date: new Date('2025-07-01'),
     title: 'June Recap',
     description: 'Working on Computer Vision, Developed and deployed an end-to-end ML pipeline',
     content: ` 
@@ -35,7 +60,7 @@ export const blogPosts: BlogPost[] = [
   },
   
   {
-        id: '2',
+        id: '3',
         date: new Date('2025-06-11'),
         title: 'Old Man and the Sea',
         description: 'My thoughts about this classic book by Ernest Hemmingway',
@@ -53,7 +78,7 @@ export const blogPosts: BlogPost[] = [
         tags: ['Books', 'Life'],
       }, 
       {
-    id: '3',
+    id: '4',
     date: new Date('2025-05-31'),
     title: 'May Recap',
     description: 'Building in React, Leetcode-Suggest development and last month in Rochester',
