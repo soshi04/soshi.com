@@ -24,7 +24,7 @@
           "description": "Used the Ultralytics YOLOv8 framework to train a custom object detection model that detects finger count on hands.",
           "tags": ["CV2", "Python", "Ultralytics YOLOv8"],
           "image": "/finger_detection.jpg",
-          "link": "https://www.youtube.com/watch?v=zewiVvjaNV4&ab_channel=soshi04",
+          "link": "",
           "github": "https://github.com/soshi04/Finger-Counting.git"
         },
         {
